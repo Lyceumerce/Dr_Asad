@@ -17,11 +17,13 @@ module.exports = {
         accent: 'rgb(var(--accent))',
       },
       backgroundImage:{
-        'firefly-radial': "radial-gradient(50% 50% at 50% 50%, rgba(253, 255, 80, 0.5) 0%, rgba(217,217,217, 0) 100%)"
+        'firefly-radial': "radial-gradient(50% 50% at 50% 50%, rgba(0, 217, 255, 0.6) 0%, rgba(157, 78, 221, 0) 100%)",
+        'cosmic-glow': "radial-gradient(circle, rgba(0, 217, 255, 0.15) 0%, rgba(123, 44, 191, 0.1) 50%, transparent 100%)"
       },
       boxShadow:{
-        'glass-inset': 'inset 0 17px 5px -9px rgba(254,254,91, 0.05)',
-        'glass-sm': '5px 5px 20px 0px rgba(254,254,91, 0.3)',
+        'glass-inset': 'inset 0 17px 5px -9px rgba(0, 217, 255, 0.08)',
+        'glass-sm': '5px 5px 20px 0px rgba(0, 217, 255, 0.4)',
+        'cosmic': '0 0 20px rgba(0, 217, 255, 0.3), 0 0 40px rgba(157, 78, 221, 0.2)',
       },
       keyframes:{
       'spin-reverse':{

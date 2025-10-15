@@ -9,7 +9,7 @@ const HatModel = dynamic(() => import("@/components/models/HatModel"), {
 });
 
 export const metadata = {
-  title: "About",
+  title: "About | Dr. Mudasar Latif Memon",
 };
 
 export default function Home() {
@@ -32,13 +32,13 @@ export default function Home() {
       <div className="relative w-full h-screen flex flex-col items-center justify-center">
         <div className="absolute flex flex-col items-center text-center top-1/2 sm:top-[60%] left-1/2 -translate-y-1/2 -translate-x-1/2">
           <h1 className="font-bold  text-4xl xs:text-5xl sm:text-6xl  lg:text-7xl text-accent">
-            Dr. Asad Ali Shaikh
+            Dr. Mudasar Latif Memon
           </h1>
           <p className="font-light text-foreground text-lg">
-            Professor, Department of IT
+            Professor (Applied AI) | AI Researcher
           </p>
           <p className="font-light text-foreground text-base">
-            The University of Modern Sciences, Tando Muhammad Khan
+            University of Modern Sciences, Pakistan
           </p>
         </div>
       </div>

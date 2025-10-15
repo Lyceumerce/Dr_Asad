@@ -4,11 +4,15 @@
 
 @layer base {
   :root {
-    --background: 27 27 27;
-    --foreground: 225 225 225;
-    --muted: 115 115 115;
-    --accent: 254 254 91;
-    /* hex value of rgb(254,254,91) color is  #FEFE5B  */
+    --background: 0 8 20;
+    --foreground: 224 225 221;
+    --muted: 71 85 105;
+    --accent: 0 217 255;
+    /* Galaxy/AI Theme Colors */
+    /* background: Deep Space #000814 */
+    /* foreground: Light Blue-White #E0E1DD */
+    /* muted: Slate Gray #475569 */
+    /* accent: Neon Cyan #00D9FF */
   }
 }
 

@@ -12,18 +12,18 @@ const AboutDetails = () => {
           }
         >
           <h2 className="  text-xl md:text-2xl text-left w-full capitalize">
-            Educator & Technology Innovator
+            AI Researcher & Applied AI Pioneer
           </h2>
           <p className="font-light  text-xs sm:text-sm md:text-base   ">
-            As a dedicated Professor in the Department of Information Technology at
-            The University of Modern Sciences, Tando Muhammad Khan, I am committed to
-            shaping the next generation of IT professionals. My expertise spans across
-            modern web technologies, software engineering, and computer science education.
-            I specialize in teaching and researching cutting-edge technologies including
-            JavaScript, React.js, Next.js, and full-stack development. With a passion
-            for innovation and academic excellence, I strive to bridge the gap between
-            theoretical knowledge and practical application, empowering students to become
-            skilled professionals in the ever-evolving field of information technology.
+            As Professor of Applied Artificial Intelligence at the University of Modern Sciences,
+            Pakistan, I am at the forefront of AI research and innovation. With a PhD in Electronic
+            and Electrical Engineering from Sungkyunkwan University (SKKU), South Korea, where I
+            received the 1st prize in Superior Research Award, my work focuses on the convergence
+            of emerging technologies including Applied AI, 5G Wireless Networks, and Healthcare
+            sector applications. As former CEO of Lyceumerce Private Limited and leader of the
+            AI Initiative SAINCUBE, I bridge the gap between cutting-edge research and practical
+            applications, advancing the field of artificial intelligence while mentoring the next
+            generation of AI professionals.
           </p>
         </ItemLayout>
 
@@ -31,7 +31,7 @@ const AboutDetails = () => {
           className={" col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
         >
           <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
-            500+ <sub className="font-semibold text-base">students taught</sub>
+            14+ <sub className="font-semibold text-base">publications</sub>
           </p>
         </ItemLayout>
 
@@ -39,55 +39,56 @@ const AboutDetails = () => {
           className={"col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
         >
           <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
-            10+{" "}
-            <sub className="font-semibold text-base">years of teaching</sub>
+            9+{" "}
+            <sub className="font-semibold text-base">years at IBA</sub>
           </p>
         </ItemLayout>
 
         <ItemLayout className={"col-span-full sm:col-span-6 md:col-span-4"}>
           <h3 className="text-xl font-semibold text-accent mb-2">Research Areas</h3>
           <ul className="list-disc list-inside text-sm space-y-1">
-            <li>Web Technologies</li>
-            <li>Software Engineering</li>
-            <li>Database Systems</li>
-            <li>Cloud Computing</li>
+            <li>Applied Artificial Intelligence</li>
+            <li>5G Wireless Networks</li>
+            <li>Healthcare AI Applications</li>
+            <li>Emerging Technologies Convergence</li>
           </ul>
         </ItemLayout>
 
         <ItemLayout className={"col-span-full md:col-span-8"}>
           <h3 className="text-xl font-semibold text-accent mb-2">Academic Qualifications</h3>
           <p className="text-sm">
-            Ph.D. in Information Technology<br/>
-            Specializing in modern web development, software engineering methodologies,
-            and computer science education. Committed to advancing IT education and
-            fostering innovation in the field of technology.
+            Ph.D. in Electronic and Electrical Engineering<br/>
+            Sungkyunkwan University (SKKU), South Korea<br/>
+            Recipient of 1st Prize in Superior Research Award<br/>
+            Supervised by Prof. Dong Ryeol Shin and co-supervised by Prof. N. Saxena<br/>
+            Specialized in AI convergence, 5G networks, and healthcare technology applications.
           </p>
         </ItemLayout>
 
         <ItemLayout className={"col-span-full"}>
           <img
             className="w-full h-auto"
-            src={`https://skillicons.dev/icons?i=html,css,js,react,nextjs,nodejs,mongodb,mysql,git,github,vscode,tailwind,bootstrap,python,java,cpp,docker,linux,aws,firebase`}
-            alt="Technical Skills"
+            src={`https://skillicons.dev/icons?i=python,tensorflow,pytorch,keras,sklearn,opencv,matlab,latex,linux,docker,aws,gcp,git,github,vscode,jupyter,anaconda,mysql,mongodb,nodejs`}
+            alt="AI & Technical Skills"
             loading="lazy"
           />
         </ItemLayout>
 
         <ItemLayout className={"col-span-full md:col-span-6"}>
-          <h3 className="text-xl font-semibold text-accent mb-2">Teaching Philosophy</h3>
+          <h3 className="text-xl font-semibold text-accent mb-2">Research Collaborations</h3>
           <p className="text-sm">
-            Emphasizing hands-on learning, critical thinking, and real-world
-            application of theoretical concepts. Dedicated to creating an
-            inclusive and engaging learning environment.
+            Active collaborations with MediaTek Inc. USA and Samsung, South Korea.
+            Member of Technical Program Committees for IEEE Conferences.
+            External examiner for graduate proposals and global talent mentoring programs.
           </p>
         </ItemLayout>
 
         <ItemLayout className={"col-span-full md:col-span-6"}>
-          <h3 className="text-xl font-semibold text-accent mb-2">Professional Development</h3>
+          <h3 className="text-xl font-semibold text-accent mb-2">Professional Training</h3>
           <p className="text-sm">
-            Continuously updating curriculum with latest industry trends and
-            technologies. Active participation in academic conferences and
-            professional workshops to enhance teaching methodologies.
+            Completed &ldquo;Postdocs Ventures: From Science to Business&rdquo; at University of Cambridge (2020).
+            Conducted workshops on Writing Research Articles Using LATEX and AI.
+            Active speaker on AI Tools in Medical Education and Research.
           </p>
         </ItemLayout>
       </div>
