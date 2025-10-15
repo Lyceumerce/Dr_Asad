@@ -1,5 +1,4 @@
 "use client";
-import { Environment } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import clsx from "clsx";
 import React, { Suspense } from "react";
@@ -13,7 +12,9 @@ const RenderModel = ({ children, className }) => {
       // dpr is the device pixel ratio. Here we are setting it to 1 and 2 for retina displays to prevent blurriness in the model rendering on high resolution screens.
     >
       <Suspense fallback={null}>{children}</Suspense>
-      <Environment preset="dawn" />
+      <directionalLight position={[1, 1, 1]} intensity={2} />
+      <ambientLight intensity={0.5} />
+      <pointLight position={[10, 10, 10]} />
     </Canvas>
   );
 };

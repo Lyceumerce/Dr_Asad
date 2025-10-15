@@ -12,18 +12,18 @@ const AboutDetails = () => {
           }
         >
           <h2 className="  text-xl md:text-2xl text-left w-full capitalize">
-            Architect of Enchantment
+            Educator & Technology Innovator
           </h2>
           <p className="font-light  text-xs sm:text-sm md:text-base   ">
-            My journey in web development is powered by an array of mystical
-            tools and languages, with JavaScript casting the core of my
-            enchantments. I wield frameworks like React.js and Next.js with
-            precision, crafting seamless portals (websites) that connect realms
-            (users) across the digital universe. The ancient arts of the
-            Jamstack empower me to create fast, secure, and dynamic experiences,
-            while my design skills ensure every creation is not only functional
-            but visually captivating. Join me as I continue to explore new
-            spells and technologies to shape the future of the web.
+            As a dedicated Professor in the Department of Information Technology at
+            The University of Modern Sciences, Tando Muhammad Khan, I am committed to
+            shaping the next generation of IT professionals. My expertise spans across
+            modern web technologies, software engineering, and computer science education.
+            I specialize in teaching and researching cutting-edge technologies including
+            JavaScript, React.js, Next.js, and full-stack development. With a passion
+            for innovation and academic excellence, I strive to bridge the gap between
+            theoretical knowledge and practical application, empowering students to become
+            skilled professionals in the ever-evolving field of information technology.
           </p>
         </ItemLayout>
 
@@ -31,7 +31,7 @@ const AboutDetails = () => {
           className={" col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
         >
           <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
-            25+ <sub className="font-semibold text-base">clients</sub>
+            500+ <sub className="font-semibold text-base">students taught</sub>
           </p>
         </ItemLayout>
 
@@ -39,62 +39,56 @@ const AboutDetails = () => {
           className={"col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
         >
           <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
-            4+{" "}
-            <sub className="font-semibold text-base">years of experience</sub>
+            10+{" "}
+            <sub className="font-semibold text-base">years of teaching</sub>
           </p>
         </ItemLayout>
 
-        <ItemLayout
-          className={"col-span-full sm:col-span-6 md:col-span-4 !p-0"}
-        >
-          <img
-            className="w-full h-auto"
-            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/top-langs?username=codebucks27&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
-            alt="CodeBucks"
-            loading="lazy"
-          />
+        <ItemLayout className={"col-span-full sm:col-span-6 md:col-span-4"}>
+          <h3 className="text-xl font-semibold text-accent mb-2">Research Areas</h3>
+          <ul className="list-disc list-inside text-sm space-y-1">
+            <li>Web Technologies</li>
+            <li>Software Engineering</li>
+            <li>Database Systems</li>
+            <li>Cloud Computing</li>
+          </ul>
         </ItemLayout>
 
-        <ItemLayout className={"col-span-full md:col-span-8 !p-0"}>
-          <img
-            className="w-full h-auto"
-            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api?username=codebucks27&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
-            alt="CodeBucks"
-            loading="lazy"
-          />
+        <ItemLayout className={"col-span-full md:col-span-8"}>
+          <h3 className="text-xl font-semibold text-accent mb-2">Academic Qualifications</h3>
+          <p className="text-sm">
+            Ph.D. in Information Technology<br/>
+            Specializing in modern web development, software engineering methodologies,
+            and computer science education. Committed to advancing IT education and
+            fostering innovation in the field of technology.
+          </p>
         </ItemLayout>
 
         <ItemLayout className={"col-span-full"}>
           <img
             className="w-full h-auto"
-            src={`https://skillicons.dev/icons?i=appwrite,aws,babel,bootstrap,cloudflare,css,d3,docker,figma,firebase,gatsby,git,github,graphql,html,ipfs,js,jquery,kubernetes,linux,mongodb,mysql,netlify,nextjs,nodejs,npm,postgres,react,redux,replit,sass,supabase,tailwind,threejs,vercel,vite,vscode,yarn`}
-            alt="CodeBucks"
+            src={`https://skillicons.dev/icons?i=html,css,js,react,nextjs,nodejs,mongodb,mysql,git,github,vscode,tailwind,bootstrap,python,java,cpp,docker,linux,aws,firebase`}
+            alt="Technical Skills"
             loading="lazy"
           />
         </ItemLayout>
 
-        <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
-          <img
-            className="w-full h-auto"
-            src={`${process.env.NEXT_PUBLIC_GITHUB_STREAK_STATS_URL}?user=codebucks27&theme=dark&hide_border=true&type=svg&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B`}
-            alt="CodeBucks"
-            loading="lazy"
-          />
+        <ItemLayout className={"col-span-full md:col-span-6"}>
+          <h3 className="text-xl font-semibold text-accent mb-2">Teaching Philosophy</h3>
+          <p className="text-sm">
+            Emphasizing hands-on learning, critical thinking, and real-world
+            application of theoretical concepts. Dedicated to creating an
+            inclusive and engaging learning environment.
+          </p>
         </ItemLayout>
 
-        <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
-          <Link
-            href="https://github.com/codebucks27/Nextjs-contentlayer-blog"
-            target="_blank"
-            className="w-full"
-          >
-            <img
-              className="w-full h-auto"
-              src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/pin/?username=codebucks27&repo=Nextjs-contentlayer-blog&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2`}
-              alt="CodeBucks"
-              loading="lazy"
-            />
-          </Link>
+        <ItemLayout className={"col-span-full md:col-span-6"}>
+          <h3 className="text-xl font-semibold text-accent mb-2">Professional Development</h3>
+          <p className="text-sm">
+            Continuously updating curriculum with latest industry trends and
+            technologies. Active participation in academic conferences and
+            professional workshops to enhance teaching methodologies.
+          </p>
         </ItemLayout>
       </div>
     </section>
